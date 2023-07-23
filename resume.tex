@@ -162,8 +162,9 @@
 % Make sure all the details are correct, you can add more links in the first row of second column if needed
 
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\Huge Ankit Singh \vspace{2pt}} & % row = 1, col = 1
-  Location: Meerut, Uttar Pradesh, India \\ % row = 1, col = 2
+  \textbf{\Huge{\href{https://ankitb.dev}{Ankit Singh}} \vspace{2pt}} & % row = 1, col = 1
+   \\ % row = 1, col = 2
+  \href{https://ankitb.dev}{\uline{Portfolio}} $|$ % row = 2, col = 1
   \href{https://www.linkedin.com/in/ankit-singh-58304221b/}{\uline{LinkedIn}} $|$ % row = 2, col = 1
   \href{https://github.com/0205Ankit}{\uline{GitHub}} $|$ % row = 2, col = 1
   Email: \href{mailto:ankitbisht0205@gmail.com}{\uline{ankitbisht0205@gmail.com}} $|$ % row = 2, col = 2
@@ -188,8 +189,8 @@
 \section{Technical Skills}
   \resumeHeadingListStart{}
     \resumeSectionType{Languages}{:}{JavaScript, TypeScript, HTML, CSS}
-    \resumeSectionType{Frameworks}{:}{React.js,  Express, Node.js}
-    \resumeSectionType{Libraries}{:}{Material, Redux, React Router}
+    \resumeSectionType{Frameworks}{:}{React.js,  Express, Node.js, Next.js}
+    \resumeSectionType{Libraries}{:}{Radi, Redux/Redux toolkit, React Router}
     \resumeSectionType{Databases}{:}{MongoDB, PostgreSQL}
     \resumeSectionType{Dev Tools}{:}{Visual Studio Code, Git, Github}
   \resumeHeadingListEnd{}
@@ -201,12 +202,12 @@
 
 \section{Experience}
 \resumeHeadingListStart{}
-  \resumeQuadHeading{Web Developer Intern}{Feb 2023 -- Present}
+  \resumeQuadHeading{Web Developer Intern}{Feb 2023 -- Apr-2023}
   {Itaxeasy}{Noida, Uttar Pradesh, India}
     \resumeItemListStart{}
       \resumeItem{Designed and developed dynamic and responsive websites using \textbf{HTML, CSS, React, and Express}}
       \resumeItem{Worked with \textbf{REST APIs} to retrieve and display data from databases}
-      \resumeItem{Improved \textbf{website performance} and speed through optimization techniques.}
+      \resumeItem{Improved \textbf{Website performance} and speed through optimization techniques.}
     \resumeItemListEnd{}
 
 %---------------------------------------------
@@ -216,11 +217,9 @@
 % Mention your CGPA, if its good, in the first row of second column
 
 \section{Education}
-  \resumeHeadingListStart{}
-    \resumeQuadHeading{XII , City Vocational Public School}{Meerut, Uttar Pradesh}
-    {(P.C.M) 72\%}{Apr 2018 -- May 2019}
+  \resumeHeadingListStart{
     \resumeQuadHeading{B.Tech , Meerut Institute Of Engineering and Technology}{Meerut, Uttar Pradesh}
-    {(Electrical Engineering) 65\%}
+    {(Electrical Engineering) 73\%}
     {Jun 2019 -- Aug 2023}
     {Affiliated with (A.K.T.U) Abdul Kalam Technical University}
   \resumeHeadingListEnd{}
@@ -232,7 +231,8 @@
 
 \section{Projects}
   \resumeHeadingListStart{}
-    \resumeTrioHeading{\href{https://netflix-clone-theta-seven.vercel.app/}{\uline{Netflix Clone}}}{React.js, Redux, Firebase, Javascript, Git}{\href{https://netflix-clone-theta-seven.vercel.app/}{\uline{Link}}}
+    \resumeTrioHeading{\href{https://clone-netflix-three-omega.vercel.app/}{\uline{Netflix Clone}}}{React.js, Redux, Firebase, Javascript, Git}{\href{https://clone-netflix-three-omega.vercel.app
+}{\uline{Link}}}
       \resumeItemListStart{}
         \resumeItem{Developed a deep and clean Netflix Clone using \textbf{React, Firebase, and JavaScript}}
         \resumeItem{Optimized website for \textbf{speed and user experience}}
@@ -240,7 +240,14 @@
         \resumeItem{Deployed on Internet using Vercel}
       \resumeItemListEnd{}
 
-      \resumeTrioHeading{Calorie Tracker}{Node.js, Express, JavaScript, Git}{\href{https://github.com/0205Ankit/CalorieTracker-Backend}{\uline{Source Code}}}
+      \resumeTrioHeading{\href{https://user-log.vercel.app/}{\uline{User-log}}}{Typescript , React.js, RTK Query, PostrgreSQL, Express, Prisma}{\href{https://user-log.vercel.app/}{\uline{Link}}}
+      \resumeItemListStart{}
+        \resumeItem{A basic \textbf{Full-stack} CRUD app using  \textbf{React, PostresSQL,Express,AWS S3}}
+        \resumeItem{Let's you log user with their details and an \textbf{Image}}
+        \resumeItem{\textbf{Database} is hosted on Vercel PostreSQL}
+      \resumeItemListEnd{}
+
+      \resumeTrioHeading{Calorie Tracker}{Typescript , Node.js, Express, Git}{\href{https://github.com/0205Ankit/CalorieTracker-Backend}{\uline{Source Code}}}
       \resumeItemListStart{}
       \resumeItem {API which lets you manage and keep track of your meal and calorie intake}
         \resumeItem{A \textbf{CRUD application} exposed using a RESTful API made with Node.js}
