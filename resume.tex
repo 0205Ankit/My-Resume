@@ -106,7 +106,7 @@
 }
 
 % commands to start and end itemization of resumeItem, rightmargin set to 0.11in to avoid the overflow of resumetItem beyond whatever resumeItemHeading is being used
-\newcommand{\resumeItemListStart}{\begin{itemize}[rightmargin=0.11in]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[label={$\bullet$},rightmargin=0.11in]}
 \newcommand{\resumeItemListEnd}{\end{itemize}}
 
 % resumeSectionType renders a bolded type to be used under a section, used as skill type here, middle element is used to keep ":"s in the same vertical line
@@ -168,7 +168,7 @@
   \href{https://www.linkedin.com/in/ankit-singh-58304221b/}{\uline{LinkedIn}} $|$ % row = 2, col = 1
   \href{https://github.com/0205Ankit}{\uline{GitHub}} $|$ % row = 2, col = 1
   Email: \href{mailto:singhankit8066@gmail.com}{\uline{singhankit8066@gmail.com}} $|$ % row = 2, col = 2
-  Mobile: 9119018066 \\ % row = 2, col = 2
+  Mobile: +91-9119018066 \\ % row = 2, col = 2
 \end{tabular*}
 %--------------------------------------------
 
@@ -176,48 +176,50 @@
 %-----------SUMMARY--------------------------
 % Keep this short, simple and straigth to point
 
-\section{Full Stack Developer}
-\small{
-  I am a highly skilled web developer with over \textbf{2 years of  relative experience} in \textbf{HTML, CSS, and JavaScript}. I have knowledge of popular frameworks such as \textbf{React,  Express.js and experience with REST APIs 
-}
+% \section{Full Stack Developer}
+% \small{
+% Full Stack Developer with hands-on experience crafting responsive web applications using \textbf{JavaScript}, \textbf{Node.js}, and \textbf{React.js}. Adept at building scalable solutions and integrating \textbf{RESTful APIs}. Excited about leveraging technology to solve real-world problems and continuously learning to stay at the forefront of the industry.
+% }
 %--------------------------------------------
 
 
 %--------------SKILLS------------------------
 % Add or remove resumeSectionTypes according to your needs
 
-\section{Technical Skills}
-  \resumeHeadingListStart{}
-    \resumeSectionType{Languages}{:}{JavaScript, TypeScript, C++, HTML, CSS}
-    \resumeSectionType{Frameworks}{:}{React.js,  Express, Node.js, Next.js}
-    \resumeSectionType{Libraries}{:}{Radix, Redux/Redux toolkit, TRPC, Prisma}
-    \resumeSectionType{Databases}{:}{MongoDB, PostgreSQL}
-    \resumeSectionType{Dev Tools}{:}{Visual Studio Code, Git, Github}
-  \resumeHeadingListEnd{}
+% \section{Technical Skills}
+%   \resumeHeadingListStart{}
+%     \resumeSectionType{Languages}{:}{JavaScript, TypeScript, C++, HTML, CSS}
+%     \resumeSectionType{Frameworks}{:}{React.js,  Express, Node.js, Next.js}
+%     \resumeSectionType{Libraries}{:}{Radix, Redux/Redux toolkit, TRPC, Prisma}
+%     \resumeSectionType{Databases}{:}{MongoDB, PostgreSQL}
+%     \resumeSectionType{Dev Tools}{:}{Visual Studio Code, Git, Github}
+%   \resumeHeadingListEnd{}
 %--------------------------------------------
 
 
 %-----------EXPERIENCE-----------------------
 % Distill all your talking points to small bullet points which follow the pattern "challenge-action-result" for maximum efficiency. Try to quantify (use numbers) your points whenver possible, highlist words of importance
 
-\section{Experience}
+\section{Professional Experience}
 \resumeHeadingListStart{}
-  \resumeQuadHeading{Sofware Developer Intern}{Oct 2023 -- Jan-2024}
+  \resumeQuadHeading{Sofware Developer Intern}{Oct 2023 -- Jan 2024}
   {FalconAI}{Bangalore, Karnataka, India}
     \resumeItemListStart{}
-      \resumeItem{Contributed to feature development and bug resolution in both \textbf{frontend} and \textbf{backend} using \textbf{Next.js and Prisma}}
-      \resumeItem{Built \textbf{AI} services with Next.js, Prisma, and \textbf{OpenAI API} in collaboration with \textbf{LangChain}}
-      \resumeItem{Wrote maintainable code in the Next.js and Prisma stack, ensuring \textbf{scalability} for future expansion.}
-      \resumeItem{Committed to continuous learning, adapting to \textbf{new technologies} daily to stay at the forefront of industry trends.}
+      \resumeItem{Led a major overhaul of service workflows, optimizing efficiency and user experience using \textbf{Next.js} and \textbf{Prisma}.}
+      \resumeItem{Engineered cutting-edge AI solutions in collaboration with \textbf{LangChain}, and \textbf{OpenAI} API.}
+      \resumeItem{\textbf{Optimized} data processing workflows, resulting in a \textbf{30\% reduction} in data processing time and a \textbf{20\% increase} in overall system efficiency}
+      \resumeItem{Authored \textbf{scalable}, \textbf{maintainable} code within the Next.js and Prisma framework, preparing for future growth.}
+      % \resumeItem{Pursued continuous professional development, swiftly adapting to emerging technologies to remain industry-leading.}
     \resumeItemListEnd{}
-\resumeHeadingListStart{}
-  \resumeQuadHeading{Web Developer Intern}{Feb 2023 -- Apr-2023}
+    
+\resumeQuadHeading{React Developer Intern}{Feb 2023 -- Apr 2023}
   {Itaxeasy}{Noida, Uttar Pradesh, India}
     \resumeItemListStart{}
-      \resumeItem{Designed and developed dynamic and responsive websites using \textbf{HTML, CSS, React, and Express}}
-      \resumeItem{Worked with \textbf{REST APIs} to retrieve and display data from databases}
-      \resumeItem{Improved \textbf{Website performance} and speed through optimization techniques.}
+      \resumeItem{Developed dynamic, responsive websites using \textbf{HTML, CSS, React, and Express}, enhancing user interaction and experience.}
+      \resumeItem{Utilized \textbf{REST APIs} for efficient data retrieval and display, enhancing user experience.}
+      \resumeItem{\textbf{Optimized} website loading performance by \textbf{40\%}, significantly boosting speed and responsiveness.}
     \resumeItemListEnd{}
+\resumeHeadingListEnd
 
 %---------------------------------------------
 
@@ -231,7 +233,7 @@
     {(Electrical Engineering) 73\%}
     {Jun 2019 -- Aug 2023}
     {Affiliated with (A.K.T.U) Abdul Kalam Technical University}
-  \resumeHeadingListEnd{}
+  \resumeHeadingListEnd
 %---------------------------------------------
 
 
@@ -242,23 +244,31 @@
   \resumeHeadingListStart{}
   \resumeTrioHeading{\href{https://app.falconai.in}{\uline{FalconAI}}}{Next.js, Prisma, Supabase, Typescript, TRPC, Git}{\href{https://app.falconai.in}{\uline{Link}}}
       \resumeItemListStart{}
-        \resumeItem{FalconAI seeks to enhance teacher-student communication by leveraging \textbf{artificial intelligence}.}
-        \resumeItem{Teachers can easily generate \textbf{tasks}, \textbf{lesson plans}, and other materials for students.}
-        \resumeItem{The \textbf{AI} autonomously conducts and monitors assigned tasks on the student's end.}
-        \resumeItem{Utilized \textbf{chat interface} for interactive task execution, promoting student engagement in learning with teachers.}
+        \resumeItem{Spearheaded the development of FalconAI, a platform aimed at improving teacher-student communication through \textbf{AI-powered tools}.}
+        \resumeItem{Enabled teachers to generate tasks, lesson plans, and materials, while the AI \textbf{autonomously} monitored and \textbf{conducted tasks} on the student end.}
+        \resumeItem{Implemented a \textbf{chat interface} for interactive task execution, fostering engagement and \textbf{personalized learning} experiences.}
         \resumeItem{Create \textbf{chatbot} with your \textbf{personal} persona}
       \resumeItemListEnd
-      
+
+    
     \resumeTrioHeading{\href{https://chat-frame-coral.vercel.app/}{\uline{ChatFrame}}}{Next.js, Express.js, Typescript, TRPC, Socket.io,  Supabase, TailwindCSS}{\href{https://chat-frame-coral.vercel.app/
 }{\uline{Link}}}
       \resumeItemListStart{}
-        \resumeItem{Designed and implemented a comprehensive \textbf{real-time chat application} featuring seamless \textbf{photo-sharing} functionality and robust \textbf{interactivity}. }
-        \resumeItem{Chat application encompassing both \textbf{one-to-one} and \textbf{group messaging} functionalities with \textbf{multiple} chat input methods, including \textbf{image} and \textbf{audio} sharing.}
-        \resumeItem{Chats with \textbf{real-time}, \textbf{in-app notification} systems, ensuring prompt updates for incoming messages for enhanced user engagement.}
+        \resumeItem{Designed and built ChatFrame, a \textbf{real-time chat} application with seamless \textbf{photo-sharing} and \textbf{robust messaging} functionalities.}
+        \resumeItem{Integrated features for both \textbf{one-to-one} and \textbf{group}, messaging including support for multimedia content such as \textbf{images} and \textbf{audio}.}
+        \resumeItem{Implemented \textbf{real-time, in-app notification} systems to ensure prompt updates for incoming messages, enhancing user engagement.}
         \resumeItem{\textbf{Additionally}, the project encompasses all fundamental functionalities of a \textbf{social media} application.}
       \resumeItemListEnd{}
 
       
+  \resumeHeadingListEnd{}
+
+\section{Technical Skills}
+  \resumeHeadingListStart{}
+    \resumeSectionType{Languages}{:}{JavaScript, TypeScript, C++, HTML, CSS}
+    \resumeSectionType{Tools}{:}{React.js, Node.js, Next.js, TailwindCSS, Docker, Supabase, Redux,Socket.io}
+    \resumeSectionType{Databases}{:}{MongoDB, PostgreSQL}
+    \resumeSectionType{Dev Tools}{:}{Visual Studio Code, Git, Github}
   \resumeHeadingListEnd{}
 %--------------------------------------------
 
